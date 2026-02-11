@@ -1,0 +1,1 @@
+export default function Home(){return(<main className="container"><h1>School Scheduler Demo</h1><div className="card"><p><a href="/login">Login</a></p><p><small>Admin: admin@demo.local / admin12345</small></p></div></main>);}
