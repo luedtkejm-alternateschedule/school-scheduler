@@ -95,7 +95,8 @@ export default function Admin(){
           <div style={{alignSelf:"end"}}><button onClick={addBlock}>Add block</button></div>
         </div>
         <table>
-          <thead><tr><th>Code</th><thLabel>Label</thLabel><th>Auto-assign</th></tr></thead>
+          <thead><tr><th>Code</th><th>Label</th>
+<th>Auto-assign</th></tr></thead>
           <tbody>
             {blocks.map(b=>(
               <tr key={b.id}>
